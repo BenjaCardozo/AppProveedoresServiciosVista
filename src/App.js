@@ -5,6 +5,8 @@ import Footer from './Components/Footer';
 import { Profile } from './Elementos/Profile';
 import { LoginButton } from './Elementos/LoginButton';
 import { LogoutButton } from './Elementos/LogoutButton';
+import Card from './Components/Card';
+
 
 
 
@@ -13,10 +15,11 @@ function App() {
 
 
   return (
-    <div class="App">
+    <div className="App">
       <Navbar />
-      <Profile />
-      {/* <Main /> */}
+      {/* <Card /> */}
+      {/* <Profile /> */}
+      <Main />
       <Footer />
     </div>
   );

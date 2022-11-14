@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <div>
-      <footer class="container">
-        <p class="float-end">
+      <footer className="container">
+        <p className="float-end">
           <a href="#">Inicio</a>
         </p>
         <p>
