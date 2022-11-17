@@ -1,27 +1,23 @@
-import './App.css';
-import { Navbar } from './Components/Navbar';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
-import { Profile } from './Elementos/Profile';
-import { LoginButton } from './Elementos/LoginButton';
-import { LogoutButton } from './Elementos/LogoutButton';
-import Card from './Components/Card';
-
-
-
+import "./App.css";
+import { Navbar } from "./Components/Navbar";
+import Main from "./Components/Main";
+import Footer from "./Components/Footer";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Routes,
+} from "react-router-dom";
 
 function App() {
-
-
-
-  return (
-    <div className="App">
-      <Navbar />
-      {/* <Card /> */}
-      {/* <Profile /> */}
-      <Main />
-      <Footer />
-    </div>
+  return (   
+      <div className="App">
+        <Navbar />       
+        <>
+            <Main />        
+        </>
+        <Footer />
+      </div>
   );
 }
 
