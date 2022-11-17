@@ -1,6 +1,4 @@
 import React from 'react'
-import App from './../App';
-
 
 
 const Carrousel = () => {
@@ -13,7 +11,7 @@ const Carrousel = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <svg className="bd-placeholder-img" width="100%" height="100%" src="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
         <div className="container">
           <div className="carousel-caption text-start">
