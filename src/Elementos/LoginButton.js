@@ -7,11 +7,7 @@ export const LoginButton = () => {
     return <button
     onClick={() => loginWithRedirect()}
     className="btn btn-outline-light me-2"
-
   >
     Login
   </button>
-
-
-
 }
