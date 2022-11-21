@@ -1,4 +1,5 @@
 import "./App.css";
+import './formulario.css'
 import { Navbar } from "./Components/Navbar";
 import Main from "./Components/Main";
 import Footer from "./Components/Footer";
