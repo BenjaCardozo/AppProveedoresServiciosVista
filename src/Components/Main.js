@@ -1,12 +1,20 @@
 import React from "react";
 import Carrousel from "../Elementos/Carrousel";
-
+import { useAuth0 } from "@auth0/auth0-react";
+import { ProfileSet } from "../Elementos/ProfileSet";
 
 const Main = () => {
+  const { isAuthenticated } = useAuth0();
+
   return (
     <div>
       <main>
         <Carrousel />
+        {isAuthenticated ? (
+                <ProfileSet />
+              ) : (<></>
+              )}
+        <hr className="featurette-divider" />
         <div className="container marketing">
           <div className="row">
             <div className="col-lg-4">
@@ -98,7 +106,7 @@ const Main = () => {
             </div>
           </div>
 
-          {/* <Card /> */}
+          
 
           <hr className="featurette-divider" />
 

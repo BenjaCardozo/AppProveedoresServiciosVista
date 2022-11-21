@@ -22,8 +22,8 @@ export const ProfileSet = () => {
                       <img
                         src={user.picture}
                         alt={user.name}
-                        width="32"
-                        height="32"
+                        width="55"
+                        height="55"
                         className="rounded-circle"
                       />
                     </a>
