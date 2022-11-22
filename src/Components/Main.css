@@ -1,0 +1,17 @@
+.primero div {
+  height: auto;
+  width: 9px;
+  margin: auto;
+  display: grid;
+  height: 200px;
+}
+.segundo div {
+  float: right;
+  width: 26%;
+  display: grid;
+  height: 190px;
+}
+.tercero div {
+  clear: both;
+  width: 96%;
+}
